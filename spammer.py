@@ -7,6 +7,7 @@ port = 465
 reciever = " RECIEVER EMAIL HERE"
 message = " MESSAGE HERE "
 threads_no = 10
+
 def spammer():
     while True:
         sslcontext = ssl.create_default_context()
